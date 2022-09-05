@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import logo from './svelte-logo.svg';
 	import { base } from '$app/paths';
+	console.log('Base is:' + base);
 </script>
 
 <header>
