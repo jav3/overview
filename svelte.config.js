@@ -10,9 +10,12 @@ const config = {
 			assets: "docs",
 			fallback: null
 		}),
-		// paths: {
-		// 	base: dev ? "" : "/overview",
-		// }
+		paths: {
+			base: dev ? "" : "/overview",
+		},
+		prerender: {
+			entries: []
+		}
 	}
 };
 
