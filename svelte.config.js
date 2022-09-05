@@ -12,9 +12,6 @@ const config = {
 		}),
 		paths: {
 			base: dev ? "" : "/overview",
-		},
-		prerender: {
-			entries: []
 		}
 	}
 };

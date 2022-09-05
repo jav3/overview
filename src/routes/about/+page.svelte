@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
@@ -20,8 +24,8 @@
 	</p>
 
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		The <a href="{base}/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling.
+		Try using it with JavaScript disabled!
 	</p>
 </div>
 
